@@ -77,8 +77,9 @@
 </div>
     </nav>
     <!-- hero-section -->
-    <section id="Home" class=" flex flex-col  md:h-[574px] md:flex md:flex-row lg:h-[768px] lg:w-[100%]">
+    <section class=" flex flex-col md:h-[574px] lg:h-[768px] w-[100%]">
         <!-- left-side-hero -->
+          <div id="Home" class="flex flex-col md:flex md:flex-row h-[100%] w-[100%]" >
         <div class=" flex flex-col justify-center w-[100%]
          bg-[#02799E] h-[100%] gap-[15px] py-[20px]
        md:py-[0px] md:gap-y-[20px] md:w-[50%] px-[18px]  md:px-[24px] lg:px-[45px] ">
@@ -113,26 +114,70 @@ lg:text-[24px] lg:font-[400] lg:leading-[36px]">
         <div class="w-[100%] h-[100%] md:w-[50%]">
      <img class="h-[400px] w-[100%]  md:h-[100%]" src="./img/Rectangle 5.png" alt="">
         </div>
+        </div>
+</section>
+        <!-- about us section -->
+        <section id="aboutUs" class=" px-[18px] md:px-[24px] lg:px-[45px]
+        flex flex-col w-[100%] lg:h-[892px] md:h-[773px]  
+         ">
+          <h2 class="text-center font-[600] py-[20px] md:py-[30px] md:text-[36px] 
+          md:leading-[54px] lg:py-[40px] lg:text-[48px] lg:leading-[60px] ">
+              About us
+          </h2>
+          <!-- container -->
+          <div class="flex flex-col  gap-[30px] md:flex md:flex-row md:h-[636px] lg:h-[688px]">
+            <!-- leftside -->
+            <div class="flex flex-col h-[442px] py-[20px] px-[20px] gap-[30px] border-[2px] border-[black] justify-around md:justify-between 
+              md:gap-[30px] md:w-[50%]  lg:gap-[10px] md:h-[100%] overflow-y-auto">
+              <!-- text1 -->
+               <p class="font-[400] opacity-[80%] text-[14px] leading-[21px] 
+               md:text-[20px] md:leading-[30px] lg:text-[24px] lg:leading-[36px]">
+                Onye-ji-cash is a leading provider of comprehensive logistics solutions, 
+                      catering to a diverse range of industries. With our expertise in trucking, marine, 
+                      warehousing, and oil tanker services, we are committed to delivering efficiency 
+                      and excellence in every aspect of cargo management.</p>
+                      <!-- text2 -->
+               <p class="font-[400] opacity-[80% text-[14px] leading-[21px]   
+               md:text-[20px] md:leading-[30px] 
+               lg:text-[24px] lg:leading-[36px] ">
+                Established with a vision to streamline logistics operations,
+                       we have grown to become a trusted partner for businesses seeking reliable 
+                       transportation and warehousing solutions
+                      .Our team of seasoned professionals works tirelessly to ensure smooth and 
+                      seamless logistics operations,
+                       regardless of the scale or complexity of the task at hand.</p>
+                       <!-- text3 -->
+               <p class="font-[400] opacity-[80%] text-[14px] leading-[21px]  
+               md:text-[20px] md:leading-[30px] lg:text-[24px] lg:leading-[36px]">Join us on this journey of excellence in logistics, 
+                      and together, we'll pave the way for a more connected and efficient world.</p>
+              </div>
+              <!-- right-side -->
+              <div class="h-[100%] md:w-[50%]">
+        <img src="./img/Rectangle 6.png" class="w-[100%] h-[100%]" alt="">
+              </div>
+              </div>
+              </div>
+      
     </section>
-    <section id="aboutUs" class="px-[18px]  mb-[40px] md:px-[24px] lg:px-[45px] md:mb-[70px]">
-      <div class="md:mt-[-30px]  z-[2]">
+  
+      <!-- <div class="aboutUs">
     <h2 class="text-center font-[600] py-[20px] md:py-[30px] md:text-[36px] 
     md:leading-[54px] lg:py-[40px] lg:text-[48px] lg:leading-[60px] ">
         About us
     </h2>
-    <!-- container -->
-    <div class="flex flex-col   gap-[30px] md:flex md:flex-row md:h-[636px] lg:h-[688px]">
-      <!-- leftside -->
+  container -->
+    <!-- <div class="flex flex-col   gap-[30px] md:flex md:flex-row md:h-[636px] lg:h-[688px]">
+       leftside -
       <div class="flex flex-col h-[442px] py-[20px] px-[20px] gap-[30px] border-[2px] border-[black] justify-around md:justify-between 
         md:gap-[30px] md:w-[50%]  lg:gap-[10px] md:h-[100%] overflow-y-auto">
-        <!-- text1 -->
+        < text1 
          <p class="font-[400] opacity-[80%] text-[14px] leading-[21px] 
          md:text-[20px] md:leading-[30px] lg:text-[24px] lg:leading-[36px]">
           Onye-ji-cash is a leading provider of comprehensive logistics solutions, 
                 catering to a diverse range of industries. With our expertise in trucking, marine, 
                 warehousing, and oil tanker services, we are committed to delivering efficiency 
                 and excellence in every aspect of cargo management.</p>
-                <!-- text2 -->
+                 text2 
          <p class="font-[400] opacity-[80% text-[14px] leading-[21px]   
          md:text-[20px] md:leading-[30px] 
          lg:text-[24px] lg:leading-[36px] ">
@@ -142,21 +187,21 @@ lg:text-[24px] lg:font-[400] lg:leading-[36px]">
                 .Our team of seasoned professionals works tirelessly to ensure smooth and 
                 seamless logistics operations,
                  regardless of the scale or complexity of the task at hand.</p>
-                 <!-- text3 -->
+                  text3 
          <p class="font-[400] opacity-[80%] text-[14px] leading-[21px]  
          md:text-[20px] md:leading-[30px] lg:text-[24px] lg:leading-[36px]">Join us on this journey of excellence in logistics, 
                 and together, we'll pave the way for a more connected and efficient world.</p>
         </div>
-        <!-- right-side -->
+         right-side 
         <div class="h-[100%] md:w-[50%]">
   <img src="./img/Rectangle 6.png" class="w-[100%] h-[100%]" alt="">
         </div>
         </div>
-        </div>
+        </div> -->
 
     
         
-    </section>
+    
     <!-- why choose us -->
     <div class="flex flex-col px-[18px] md:px-[24px] lg:px-[45px] ">
    <h2 class="text-[24px] leading-[36px] text-center py-[15px] 
@@ -364,6 +409,7 @@ lg:text-[24px] lg:font-[400] lg:leading-[36px]">
         
         
     </section>
+    <!-- testimonial -->
     <section class="relative flex flex-col lg:h-[601px] mb-[100px]
     md:h-[492px] md:bg-[#D43D26] px-[18px] md:px-[24px] lg:px-[45px]">
         
@@ -471,13 +517,25 @@ lg:text-[24px] lg:font-[400] lg:leading-[36px]">
     <!-- footer -->
     <section class="px-[18px] md:px-[24px] lg:px-[45px]">
       <!-- container -->
-      <div class="flex flex-col md:h-[176px] md:gap-[30px] mb-[30px]">
-   <div class="flex flex-col md:flex md:flex-row md:justify-between">
+      <div class="flex flex-col md:flex 
+      md:flex-row md:h-[176px] md:gap-[30px] mb-[30px] justify-between">
+   <div class="flex flex-col  justify-between">
    <!-- company-icon -->
     <h2 class="text-[24px] font-[600] leading-[30px] text-[#D43D26]">
       onye-ji-cash
     </h2>
+    <div class="flex flex-col gap-[15px]">
+      <!-- address -->
+         <h2 class="font-[400] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]">
+          No 32, Agbado road Isheri, Ogun state</h2>
+         <h2 class="font-[400] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]">
+          +234 803827292, +234 9054147689</h2>
+         <h2 class="font-[400] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]">
+          Onye-ji-cash@gmail.com </h2>
+         </div>
+    </div>
     <!-- navigation -->
+      <div class="flex flex-col md:flex md:flex-row">
     <div class="flex flex-col md:flex md:flex-row gap-[34px] md:gap-[64px]">
        <!-- nav1 -->
       <a href="#aboutUs" class=" font-[400] text-[14px] leading-[21px] 
@@ -499,26 +557,16 @@ lg:text-[24px] lg:font-[400] lg:leading-[36px]">
        src="./img/Vector (1).png" alt=""></a>
      </div>
    </div>
+   </div>
    <!--container contact & adress footer -->
-   <div class="flex flex-col gap-[15px]">
-<!-- address -->
-   <h2 class="font-[400] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]">
-    No 32, Agbado road Isheri, Ogun state</h2>
-   <h2 class="font-[400] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]">
-    +234 803827292, +234 9054147689</h2>
-   <h2 class="font-[400] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]">
-    Onye-ji-cash@gmail.com </h2>
-   </div>
-   </div>
+   
+   
      <!-- copy-right -->
    <h2 class="opacity-[80%] text-center text-[14px] leading-[21px] font-[400] 
    md:text-[20px] md:leading-[30px]">
     Copyright &copy; 2023 Onye-ji-cash. All Rights Reserved</h2>
-   <h2 class="opacity-[80%] md:py-[20px] text-center text-[14px] leading-[21px] font-[400] 
-   md:text-[20px] md:leading-[30px]">
-   Courtesy: 
-   <a class="font-bold text-orange-300 hover:text-blue-600" href="https://www.axia.africa/">Axia.Africa</a>
-  </h2>
+   
+   
     </section>
     <!-- get a quote -->
     <section class="hidden   px-[18px] md:px-[24px] lg:px-[45px]">
